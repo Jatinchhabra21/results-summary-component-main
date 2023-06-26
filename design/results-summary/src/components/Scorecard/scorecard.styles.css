@@ -1,6 +1,6 @@
 .score-card__container {
   font-family: 'Hanken Grotesk';
-  max-width: 225px;
+  max-width: 250px;
   background: linear-gradient(
     to bottom,
     hsl(252, 100%, 67%),
@@ -8,9 +8,8 @@
   );
   color: #fff;
   text-align: center;
-  padding: 2.5rem;
+  padding: 2.7rem 2rem;
   border-radius: 1.5rem;
-  margin: 10vw auto;
 }
 
 .score-card__title {
@@ -28,7 +27,7 @@
   padding-inline: 4.2rem;
   padding-block: 3.8rem;
   max-width: max-content;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
 
 .score-card__scored {
@@ -41,6 +40,6 @@
 }
 
 .score-card__comment-summary {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   color: hsl(241, 100%, 89%);
 }

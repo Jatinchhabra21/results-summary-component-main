@@ -1,0 +1,48 @@
+.summary-detail-tag__container {
+  padding: 0.8rem 1rem;
+  background-color: hsl(0, 100%, 67%, 0.1);
+  border-radius: 1rem;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.summary-detail-tag__tag-container {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 800;
+}
+
+.summary-detail-tag__score-result {
+  color: hsl(224, 30%, 27%);
+  font-weight: 800;
+}
+
+.summary-detail-tag__score {
+  color: hsla(224, 30%, 27%, 0.5);
+  font-weight: 800;
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.memory {
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.verbal {
+  color: hsl(166, 100%, 37%);
+  background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.visual {
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 45%, 0.1);
+}
